@@ -5,3 +5,33 @@
 .centrale{
     text-align: center;
 }
+
+.cc-h-cont1{
+    height: 50px;
+    background-color: #2C3E50;
+    color: white;
+    line-height: 50px;
+}
+
+.cc-h-cont2{
+    height: 500px;
+    background-color: #2BBC9B;
+    color: white;
+}
+
+.cc-m-cont2{
+    background-color: #2BBC9B;
+    color: white;
+}
+
+.cc-f-cont1{
+    background-color: #3A536D;
+    color: white;
+}
+
+.cc-f-cont2{
+    height: 50px;
+    background-color: #293A4A;
+    color: white;
+    line-height: 50px;
+}
