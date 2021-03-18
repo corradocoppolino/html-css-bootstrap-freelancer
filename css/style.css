@@ -1,39 +1,7 @@
-.destra{
-    text-align: right;
-}
+/* comuni */
 
-.centrale{
-    text-align: center;
-}
-
-.cc-header-top{
-    height: 50px;
-    background-color: #2C3E50;
-    color: white;
-    line-height: 50px;
-}
-
-.cc-header-bottom{
-    height: 500px;
-    background-color: #2BBC9B;
-    color: white;
-}
-
-.cc-padding-80{
+.cc-padding-60{
     padding: 80px 0;
-}
-
-.cc-jumbotron{
-    width: 80%;
-    margin: 0 auto;
-    background-color: aqua;
-}
-
-.cc-box{
-    height: 250px;
-    width: 100%;
-    background-color: brown;
-    margin-bottom: 30px;
 }
 
 .cc-wrapper-60{
@@ -41,10 +9,101 @@
     margin: 0 auto;
 }
 
+.btn.btn-default.btn-green{
+    background-color: #2BBC9B;
+    color: white;
+    border: 1px solid white;
+}
+
+/* header */
+
+/* header-top */
+
+.cc-header-top{
+    height: 80px;
+    background-color: #2C3E50;
+    color: white;
+    line-height: 80px;
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.cc-header-top p{
+    font-size: 20px;
+}
+
+.cc-header-top .hidden-xs a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+/* header-bottom */
+
+.cc-header-bottom{
+    background-color: #2BBC9B;
+    color: white;
+    padding-top: 140px;
+    width: 100%;
+}
+
+.cc-jumbotron{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cc-header-logo{
+    height: 200px;
+}
+
+.cc-header-bottom .row h1{
+    font-size: 50px;
+}
+
+.cc-header-bottom .row p{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+/* main */
+
+/* portfolio */
+
+#portfolio h1{
+    font-size: 50px;
+}
+
+.cc-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cc-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* about */
+
 .cc-main-2{
     background-color: #2BBC9B;
     color: white;
 }
+
+#about h1{
+    font-size: 50px;
+}
+
+/* contact */
+
+#contact h1{
+    font-size: 50px;
+}
+
+/* footer */
 
 .cc-footer-top{
     background-color: #3A536D;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>START BOOTSTRAP</title>
@@ -16,10 +17,14 @@
         <div class="cc-header-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-6">sinistra</div>
+                    <div class="col-xs-6">
+                        <p>START BOOTSTRAP</p>
+                    </div>
                     <div class="col-xs-6 text-right">
                         <nav class="hidden-xs">
-                            menu lungo a destra
+                            <a href="#portfolio">PORTFOLIO</a>
+                            <a href="#about">ABOUT</a>
+                            <a href="#contact">CONTACT</a>
                         </nav>
                         <div class="visible-xs">BOTTONE</div>
                     </div>
@@ -27,17 +32,17 @@
             </div>
         </div>
         
-        <div class="cc-header-bottom cc-padding-80 text-center">
+        <div class="cc-header-bottom text-center">
             <div class="cc-jumbotron">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img class="logo" src="#" alt="LOGO">
+                            <img class="cc-header-logo" src="img/avatar.svg" alt="LOGO">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1>start bootstrap</h1>
+                            <h1>START BOOTSTRAP</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -47,7 +52,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                            <p>graphic artist - web designer - illustrator</p>
+                            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                         </div>
                     </div>
                 </div>
@@ -60,11 +65,13 @@
 
     <main>
 
-        <section id="portfolio" class="cc-padding-80 text-center">
+        <!-- sezione portfolio -->
+
+        <section id="portfolio" class="cc-padding-60 text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1>portfolio</h1>
+                        <h1>PORTFOLIO</h1>
                         <p>stellina</p>
                     </div>
                 </div>
@@ -72,43 +79,45 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="cc-box">
-                            <img src="#" alt="img-1">
+                            <img src="img/cabin.png" alt="baita">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="cc-box">
-                            <img src="#" alt="img-2">
+                            <img src="img/cake.png" alt="torta">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="cc-box">
-                            <img src="#" alt="img-3">
+                            <img src="img/circus.png" alt="circo">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="cc-box">
-                            <img src="#" alt="img-4">
+                            <img src="img/game.png" alt="gioco">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="cc-box">
-                            <img src="#" alt="img-5">
+                            <img src="img/safe.png" alt="cassaforte">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="cc-box">
-                            <img src="#" alt="img-6">
+                            <img src="img/submarine.png" alt="sottomarino">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="cc-main-2 cc-padding-80">
-            <div class="container centrale">
+        <!-- sezione about -->
+
+        <section id="about" class="cc-main-2 cc-padding-60">
+            <div class="container text-center">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1>about</h1>
+                        <h1>ABOUT</h1>
                         <p>stellina</p>
                     </div>
                 </div>
@@ -128,34 +137,47 @@
             <div class="container">
                 <div class="ro ">
                     <div class="col-xs-12 text-center">
-                        <button>download</button>
+                        <button type="button" class="btn btn-default btn-green"><i class="fas fa-download"></i> Download</button>
                     </div>
                 </div>
             </div>
             </div>
         </section>
 
-        <section id="contact" class="cc-padding-80">
+        <section id="contact" class="cc-padding-60">
             <div class="container">
-                <div class="row centrale">
+                <div class="row text-center">
                     <div class="col-xs-12">
                         <h1>contact me</h1>
                         <p>stellina</p>
                     </div>
                 </div>
-        
-                <div class="cc-wrapper-60">
+            </div>
+            <div class="cc-wrapper-60">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xs-12">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id in placeat recusandae officiis quisquam, doloribus et ea incidunt ipsa debitis praesentium, vitae consequatur asperiores omnis libero architecto. Repellendus veritatis voluptatibus nihil earum aspernatur obcaecati dolorem, magnam dolor? Similique error soluta sit? Velit ipsa eligendi minus, cupiditate ut fugit quisquam quae.</p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+                                </div>
                             </div>
                             <div class="col-xs-12">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem molestiae minus ad ut iure voluptates nemo numquam ex tenetur assumenda, fugit reiciendis labore quo autem repellat! Nisi eius eum neque fugiat ratione quas adipisci esse aperiam. Illum, officia nostrum et neque expedita velit, totam nulla quod, sint eaque earum maxime.</p>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                </div>
+                            </div><div class="col-xs-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Phone number">
+                                </div>
+                            </div><div class="col-xs-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                                </div>
                             </div>
+                           
                         </div>
                     </div>
-                </div>
+            </div>
         </section>
 
     </main>
