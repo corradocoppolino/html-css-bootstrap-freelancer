@@ -19,6 +19,35 @@
     border: 1px solid white;
 }
 
+.cc-header-bottom i{
+    position: relative;
+    width: 30%;
+}
+
+.cc-header-bottom i::after{
+    display: block;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 55%;
+    background-color: white;
+}
+
+.cc-header-bottom i::before{
+    display: block;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 0;
+    background-color: white;
+}
+
+
+
 
 
 /* header */
@@ -44,6 +73,13 @@
     color: white;
     padding-left: 20px;
     font-size: 15px;
+}
+
+.cc-header-top .visible-xs .hamburger{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 /* header-bottom */
