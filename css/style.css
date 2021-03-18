@@ -6,30 +6,52 @@
     text-align: center;
 }
 
-.cc-h-cont1{
+.cc-header-top{
     height: 50px;
     background-color: #2C3E50;
     color: white;
     line-height: 50px;
 }
 
-.cc-h-cont2{
+.cc-header-bottom{
     height: 500px;
     background-color: #2BBC9B;
     color: white;
 }
 
-.cc-m-cont2{
+.cc-padding-80{
+    padding: 80px 0;
+}
+
+.cc-jumbotron{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.cc-box{
+    height: 250px;
+    width: 100%;
+    background-color: brown;
+    margin-bottom: 30px;
+}
+
+.cc-wrapper-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cc-main-2{
     background-color: #2BBC9B;
     color: white;
 }
 
-.cc-f-cont1{
+.cc-footer-top{
     background-color: #3A536D;
     color: white;
 }
 
-.cc-f-cont2{
+.cc-footer-bottom{
     height: 50px;
     background-color: #293A4A;
     color: white;
